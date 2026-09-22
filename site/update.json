@@ -1,12 +1,12 @@
 {
     "schemaVersion":  1,
     "applicationId":  "com.cardanz.app",
-    "versionCode":  2,
-    "versionName":  "1.0.1",
-    "tag":  "v1.0.1",
-    "apkFileName":  "Cardanz-1.0.1.apk",
-    "downloadUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/download/v1.0.1/Cardanz-1.0.1.apk",
-    "releaseUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/tag/v1.0.1",
-    "sha256":  "fe02c6ea9e01029adf97175680f4f43430f0204d3be86735d59647a6410df747",
-    "publishedAtUtc":  "2026-09-22T07:04:50Z"
+    "versionCode":  3,
+    "versionName":  "1.0.2",
+    "tag":  "v1.0.2",
+    "apkFileName":  "Cardanz-1.0.2.apk",
+    "downloadUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/download/v1.0.2/Cardanz-1.0.2.apk",
+    "releaseUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/tag/v1.0.2",
+    "sha256":  "7322bd72bb97a1b7564bb916c19dd38e58cc3ff58f5da0ad6bca99efafabebe8",
+    "publishedAtUtc":  "2026-09-22T10:50:22Z"
 }
