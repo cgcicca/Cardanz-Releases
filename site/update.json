@@ -8,5 +8,7 @@
     "downloadUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/download/v1.0.3/Cardanz-1.0.3.apk",
     "releaseUrl":  "https://github.com/cgcicca/Cardanz-Releases/releases/tag/v1.0.3",
     "sha256":  "2724451100b008326eef1511221bd579d5ed51f3ce536d82bffbafb2e4302f79",
-    "publishedAtUtc":  "2026-09-23T09:51:33Z"
+    "publishedAtUtc":  "2026-09-23T09:51:33Z",
+    "minSupportedVersionCode":  103,
+    "forceUpdateAfterUtc":  null
 }
