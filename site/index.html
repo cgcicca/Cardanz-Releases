@@ -5,24 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scarica Cardanz</title>
   <style>
-    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #101828; color: #f8fafc; }
-    main { width: min(34rem, calc(100% - 3rem)); padding: 2.5rem; border-radius: 1.5rem; background: #1d2939; box-shadow: 0 1.5rem 4rem #0006; }
-    h1 { margin-top: 0; font-size: 2.4rem; }
-    p { line-height: 1.6; color: #d0d5dd; }
-    a.button { display: inline-block; margin: 1rem 0; padding: .9rem 1.25rem; border-radius: .75rem; background: #7f56d9; color: white; font-weight: 700; text-decoration: none; }
-    p a { color: #d6bbfb; font-weight: 600; }
-    p a:hover, p a:focus-visible { color: #f4ebff; }
-    code { overflow-wrap: anywhere; color: #e9d7fe; }
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 1rem 0; background: #111318; color: #e2e2e9; }
+    main { width: min(38rem, calc(100% - 2rem)); padding: clamp(1.5rem, 6vw, 2.5rem); border: 1px solid #44474f; border-radius: 1.5rem; background: #1d2025; box-shadow: 0 1.5rem 4rem #0006; }
+    h1 { margin: 0 0 .75rem; font-size: 2.4rem; }
+    h2 { margin: 2rem 0 .6rem; font-size: 1.25rem; }
+    p { margin: .65rem 0; line-height: 1.6; color: #c4c6d0; }
+    .lead { color: #e2e2e9; font-size: 1.1rem; }
+    .version { margin-top: 1.25rem; }
+    a.button { display: inline-block; margin: .75rem 0 .5rem; padding: .9rem 1.25rem; border-radius: .75rem; background: #0050f0; color: #fff; font-weight: 700; text-decoration: none; }
+    a.button:hover { background: #0038b8; }
+    a:focus-visible { outline: 3px solid #9fc1ff; outline-offset: 3px; }
+    ul { margin: .75rem 0 0; padding-left: 1.4rem; }
+    li { padding-left: .2rem; }
+    li + li { margin-top: .75rem; }
+    li::marker { color: #9fc1ff; }
+    li strong, li span { display: block; }
+    li span { margin-top: .1rem; line-height: 1.5; color: #c4c6d0; }
+    @media (max-width: 30rem) {
+      a.button { display: block; text-align: center; }
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>Cardanz</h1>
-    <p>Portafoglio Android semplice e offline per le carte fedeltà.</p>
-    <p>Versione <strong>1.0.7</strong></p>
-    <a class="button" href="https://github.com/cgcicca/Cardanz-Releases/releases/download/v1.0.7/Cardanz-1.0.7.apk">Scarica Cardanz-1.0.7.apk</a>
-    <p><a href="https://github.com/cgcicca/Cardanz-Releases/releases/tag/v1.0.7">Dettagli della release</a></p>
+    <p class="lead">Portafoglio Android semplice e offline per le carte fedeltà.</p>
+    <p>Come una tessera nel portafoglio: la estrai, la mostri, fine.</p>
+    <p class="version">Versione <strong>1.0.8</strong></p>
+    <a class="button" href="https://github.com/cgcicca/Cardanz-Releases/releases/download/v1.0.8/Cardanz-1.0.8.apk">Scarica Cardanz-1.0.8.apk</a>
+
+    <section aria-labelledby="features-title">
+      <h2 id="features-title">Cosa puoi fare con Cardanz</h2>
+      <ul>
+        <li>
+          <strong>Preferiti</strong>
+          <span>Tieni le carte che usi più spesso sempre a portata di mano.</span>
+        </li>
+        <li>
+          <strong>Widget</strong>
+          <span>Mostra le carte preferite direttamente dalla schermata Home.</span>
+        </li>
+        <li>
+          <strong>Ordina le carte</strong>
+          <span>Metti prima quelle che usi di più.</span>
+        </li>
+        <li>
+          <strong>Personalizza le carte</strong>
+          <span>Rinominale e personalizzane l’aspetto.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="offline-title">
+      <h2 id="offline-title">Sempre disponibile</h2>
+      <p>Le tue carte funzionano offline, senza account, login e codici. Niente sorprese alla cassa perché manca il segnale, serve rifare l’accesso o l’aggiornamento.</p>
+    </section>
+
+    <section aria-labelledby="backup-title">
+      <h2 id="backup-title">Ricordati del backup</h2>
+      <p>Le carte sono salvate sul dispositivo. Ogni tanto esporta un backup e conservalo in un posto sicuro: ti servirà in caso di cambio, guasto o smarrimento del telefono.</p>
+    </section>
   </main>
 </body>
 </html>
